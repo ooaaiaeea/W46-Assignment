@@ -1,0 +1,314 @@
+
+# =====================================================
+# ALGORAVE — CSS / JS / HTML / MAX-MSP
+# macOS Apple Silicon (ARM64)
+# =====================================================
+
+
+# =====================================================
+# 1. SECURITY & PRIVATE INFORMATION
+# =====================================================
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Credentials and authentication
+credentials/
+secrets/
+private/
+private-data/
+*.secret
+*.secrets
+*.credentials
+*.credential
+*.token
+
+# Private keys and keystores
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+
+# Local cloud credentials
+.aws/
+.azure/
+.gcloud/
+.ssh/
+.netrc
+
+# Local configuration containing secrets
+.npmrc
+.pypirc
+.boto
+
+# Database files and private exports
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+*.backup
+
+# =====================================================
+# 2. macOS SYSTEM FILES
+# =====================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+
+# macOS resource forks
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+
+# =====================================================
+# 3. MAX / MSP
+# =====================================================
+
+# Max backup and temporary files
+*.maxbak
+*.maxpat~
+*.maxhelp~
+*.maxproj~
+*.mxt~
+*.tmp
+
+# Max-generated temporary data
+max-temp/
+max-cache/
+.max-cache/
+
+# Max crash reports
+*.crash
+*.ips
+
+# Max project backups
+*.maxproj.bak
+*.maxpat.bak
+
+# Max-generated build output (if applicable)
+max-build/
+max-generated/
+
+# IMPORTANT:
+# Keep .maxpat, .maxhelp, .maxproj, .gendsp,
+# .genexpr, .js, .mxt and .maxpackage files.
+#
+# Keep .mxo externals if your project depends on them.
+# Keep audio files, samples, recordings and abstractions.
+
+
+# =====================================================
+# 4. JAVASCRIPT / NODE.JS
+# =====================================================
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Package manager caches
+.npm/
+.pnpm-store/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build and bundler output
+dist/
+build/
+out/
+.parcel-cache/
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+.astro/
+.turbo/
+.storybook-static/
+
+# Test output
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Framework-specific local files
+.vercel/
+.netlify/
+
+# TypeScript generated files
+*.tsbuildinfo
+
+
+# =====================================================
+# 5. HTML / CSS / FRONTEND
+# =====================================================
+
+# CSS preprocessors and generated maps
+*.css.map
+*.scss.map
+*.sass.map
+*.less.map
+
+# Generated minified files
+# Uncomment if these are generated rather than maintained.
+# *.min.css
+# *.min.js
+
+# Sass caches
+.sass-cache/
+
+# PostCSS caches
+.postcss-cache/
+
+# Generated documentation
+docs/_build/
+
+
+# =====================================================
+# 6. EDITORS & DEVELOPMENT ENVIRONMENTS
+# =====================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+*~
+\#*\#
+
+# General editor temporary files
+*.orig
+*.rej
+
+
+# =====================================================
+# 7. LOGS & DEBUGGING
+# =====================================================
+
+*.log
+logs/
+log/
+debug.log
+error.log
+
+# =====================================================
+# 8. CACHE & TEMPORARY FILES
+# =====================================================
+
+.cache/
+.cache-loader/
+.temp/
+.tmp/
+temp/
+tmp/
+*.temp
+*.swp
+
+# =====================================================
+# 9. BUILD ARTIFACTS & COMPILED FILES
+# =====================================================
+
+*.o
+*.obj
+*.a
+*.class
+
+# macOS / Xcode build output
+DerivedData/
+*.dSYM/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+.build/
+.swiftpm/
+
+# Generated application bundles
+# Uncomment if these are build outputs:
+# *.app/
+
+# =====================================================
+# 10. TESTING & COVERAGE
+# =====================================================
+
+coverage/
+.nyc_output/
+.coverage
+.coverage.*
+pytest_cache/
+test-results/
+
+# =====================================================
+# 11. BACKUPS & ARCHIVES
+# =====================================================
+
+*.old
+*.orig
+*.backup
+*.bak
+*.temp
+*.tmp
+
+# =====================================================
+# 12. OPTIONAL: GENERATED AUDIO / VIDEO
+# =====================================================
+
+# Uncomment ONLY if these are disposable generated exports.
+# renders/
+# exports/
+# generated-audio/
+# generated-video/
+
+# Do NOT globally ignore:
+# *.wav
+# *.aiff
+# *.aif
+# *.mp3
+# *.flac
+# *.mov
+# *.mp4
+# These may be essential project assets.
