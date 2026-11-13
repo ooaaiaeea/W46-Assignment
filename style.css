@@ -1,0 +1,72 @@
+
+body {
+  margin: 0;
+  background: #252525;
+  color: #eeeeea;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  max-width: 680px;
+  margin: auto;
+  padding: 64px 24px 24px;
+}
+
+header {
+  padding-bottom: 64px;
+}
+
+section {
+  border-top: 1px solid #494949;
+  padding: 32px 0;
+}
+
+h1 {
+  font-size: clamp(46px, 8vw, 70px);
+  line-height: 1;
+  letter-spacing: -3px;
+  margin: 24px 0;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 1.2;
+  margin: 16px 0;
+}
+
+p {
+  color: #bdbdb7;
+  max-width: 560px;
+}
+
+/* Acid green highlights. */
+h1 span, .label {
+  color: #c6ff4d;
+}
+
+.label, footer {
+  font-size: 12px;
+}
+
+.label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+footer {
+  border-top: 1px solid #494949;
+  padding-top: 24px;
+  color: #bdbdb7;
+}
