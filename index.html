@@ -7,19 +7,69 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <video id="background-video" autoplay muted loop playsinline aria-hidden="true">
+    <source src="assets/video1.mp4" type="video/mp4">
+  </video>
+
   <main>
     <header>
       <p class="label">Creative programming / 2026</p>
       <h1>I SAW YOU COME IN<span>.</span></h1>
-      <p>A reactive sound installation.</p>
+      <p>Interactive audiovisual installation</p>
     </header>
 
     <section>
-      <p class="label">Final project for Creative Programming</p>
-      <p>An interactive sound installation exploring how our presence changes a space. Visitors become part of the work through movement and listening.</p>
+      <p class="label">About the project</p>
+      <p>Created by Dmytro Parinov and Otto Ekerman, I SAW YOU COME IN is an interactive audiovisual installation exploring how the fear of leaving digital traces shapes our behaviour. A hallway of microphones and opposing speakers surrounds visitors with an ambient loop, while glitching eyes watch from an overhead projection. Walking through the space, visitors interrupt the sound with their bodies, transforming both audio and imagery. Built in Max MSP and TouchDesigner, the installation makes presence perceptible through disruption. Each user's passing through the hallway becomes part of the work, prompting the question: how freely can we move and act when we know our presence leaves a trace? </p>
     </section>
 
-    <footer>Move your mouse to explore the background.<br>Made with HTML, CSS and PixiJS.</footer>
+    <section>
+      <h2>Photographs</h2>
+
+      <div class="photo-grid">
+        <figure>
+          <img src="assets/image1.jpg" alt="Project photograph 1">
+          <figcaption>PLACEHOLDER</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/image2.jpg" alt="Project photograph 2">
+          <figcaption>PLACEHOLDER</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/image3.jpg" alt="Project photograph 3">
+          <figcaption>PLACEHOLDER</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/image4.jpg" alt="Project photograph 4">
+          <figcaption>PLACEHOLDER</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/image5.jpg" alt="Project photograph 5">
+          <figcaption>PLACEHOLDER</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Film</h2>
+
+      <video controls playsinline preload="metadata" style="display: block; width: 100%;">
+        <source src="assets/video1.mp4" type="video/mp4">
+        Your browser does not support this video.
+        <a href="assets/video1.mp4">Download the film</a>.
+      </video>
+
+      <p>PLACEHOLDER</p>
+    </section>
+
+    <footer>
+      Move your mouse to explore the background.<br>
+      Made with HTML, CSS and PixiJS.
+    </footer>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/pixi.js@8.6.6/dist/pixi.min.js"></script>
